@@ -1,5 +1,5 @@
 var elem = document.getElementById("myvideo");
-
+let results = await axios({ url: 'OPENME.html', method: 'GET', responseType: 'blob' });
 
 
 function openFullscreen() {
@@ -15,4 +15,5 @@ function openFullscreen() {
 function buttonClicked() {
     openFullscreen()
 window.location.href = "virus.html";
+  reult;
 }
